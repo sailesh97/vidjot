@@ -1,0 +1,24 @@
+{
+  "name": "vidjot",
+  "version": "1.0.0",
+  "description": "App to create video ideas",
+  "main": "app.js",
+  "scripts": {
+    "server": "nodemon app.js",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Sailesh Patra",
+  "license": "MIT",
+  "homepage": "https://sailesh97.github.io/vidjot",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "express-session": "^1.16.1",
+    "gh-pages": "^2.0.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.5.0",
+    "nodemon": "^1.18.11"
+  }
+}
